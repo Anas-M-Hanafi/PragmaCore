@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PragmaCore | PYTHON Course</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <link rel="fa" href="data:," /> -->
+    <link rel="shortcut icon" href="img/Logo-1.png" type="image/x-icon" />
+    <script defer src="HTML-1.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <!-- 🔹 Navbar -->
+    <div class="navbar">
+      <div class="nav-left">
+        <div class="logo">PragmaCore</div>
+        <div class="course-title">PYTHON Course</div>
+      </div>
+
+      <div class="nav-right">
+        <!-- 🔹 Get Certificate -->
+        <div class="certificate">
+          <div class="progress-circle">
+            <svg class="progress-svg" width="40" height="40">
+              <circle
+                cx="20"
+                cy="20"
+                r="15"
+                stroke="#555"
+                stroke-width="3"
+                fill="none"
+              ></circle>
+              <circle
+                id="progress-bar"
+                cx="20"
+                cy="20"
+                r="15"
+                stroke="#a970ff"
+                stroke-width="3"
+                fill="none"
+                stroke-dasharray="95"
+                stroke-dashoffset="95"
+              ></circle>
+            </svg>
+            <i class="trophy-icon fas fa-trophy"></i>
+          </div>
+          <span id="certificate-text"></span>
+        </div>
+
+        <!-- 🔹 Share Button -->
+        <button class="share-btn">
+          <span>Share</span>
+          <i class="fas fa-share-alt"></i>
+        </button>
+
+        <!-- 🔹 Menu Button -->
+        <button class="menu-btn">⋮</button>
+      </div>
+    </div>
+
+    <!-- 🔹 Main Content -->
+    <div class="container">
+      <!-- فيديو الدورة -->
+      <div class="video-section">
+        <video controls>
+          <source src="HTML V-1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-duration"><i class="fas fa-video"></i> 1:29</div>
+      </div>
+
+      <!-- 🔹 قائمة المحتوى -->
+      <div class="course-content">
+        <!-- ✅ Section 1 -->
+        <h2 class="section-title">
+          Section 1: Introduction
+          <i class="fas fa-chevron-down"></i>
+        </h2>
+        <ul class="section-content hidden">
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">1. Welcome to the Course!</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 3:00</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title"
+              >2. Course Overview & What You Will Learn</span
+            >
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 5:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">3. Why Learn Web Development?</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 4:45</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title"
+              >4. Setting Up Your Development Environment</span
+            >
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 8:15</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">5. Choosing a Code Editor</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:10</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title"
+              >6. What is HTML? Understanding the Basics</span
+            >
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 5:00</span
+            >
+          </li>
+        </ul>
+
+        <!-- ✅ Section 2: HTML & HTML5 -->
+        <h2 class="section-title">
+          Section 2: HTML & HTML5
+          <i class="fas fa-chevron-down"></i>
+        </h2>
+        <ul class="section-content">
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">7. Heading</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 4:00</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">8. Paragraph</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 6:15</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">9. Comments </span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 5:45</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">10. Images</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">11. Link, Iframe</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">12. Inline, Block</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">13. Tables</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">14. Lists</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">15. Form</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">16. Form Part 2</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">17. Form Attributes</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">18. Select, Datalist Options</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+          <li>
+            <input type="checkbox" class="lesson-checkbox" />
+            <span class="lesson-title">19. Videos, Audio</span>
+            <span class="video-duration"
+              ><i class="fas fa-video"></i> 7:30</span
+            >
+          </li>
+        </ul>
+        <div class="problem-solving-btn">
+          <button class="btn" onclick="location.href='Problem-Solving.html'">
+            HTML Problem Solving
+          </button>
+        </div>
+      </div>
+      <!-- ✅ زر Problem Solving في نهاية القائمة -->
+    </div>
+    <style>
+      body {
+        background-color: #0f0f0f;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* 🔹 Navbar */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1c1c1c;
+        padding: 10px 20px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+    </style>
+  </body>
+</html>
